@@ -1,0 +1,10 @@
+﻿@page "/Test"
+@page "/Sample"
+
+<h3>Test page running. Hi @firstName</h3>
+<br/>
+<input type="text" @bind="@firstName"></input>
+
+@code {
+    public string firstName = "Sinan";
+}
